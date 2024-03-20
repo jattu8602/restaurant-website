@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#menu ul{
+    list-style: none;
+    z-index: 100;
+}
+#menu ul li{
+    background-color: black;
+    border: 1px solid white;
+    /* width of the boxex depends upon the different screen ratios so we have to change it indivisuallly or manually */
+    width: 283px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+    position: relative;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#menu ul li a:hover{
+    background-color: green;
+}
+#menu ul ul{
+    display: none;
+    position: absolute;
+}
+#menu  ul li:hover > ul{
+    display: block;
+}
