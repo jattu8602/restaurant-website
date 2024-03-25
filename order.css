@@ -1,0 +1,32 @@
+table{
+    height: 430px;
+
+}
+input{
+    width: 99%;
+    height: 35px;
+    border: 2px solid green;
+    font-size: 18px;
+    transition: .5s;
+    
+
+}
+textarea{
+    width: 99%;
+    height: 150px;
+    border: 2px solid green;
+    font-size: 18px;
+}
+select{
+    width: 99%;
+    height: 35px;
+    border: 2px solid green;
+    font-size: 18px;
+
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+
+}
