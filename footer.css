@@ -1,0 +1,25 @@
+.footer{
+    height: 200px;
+    width: 99.73%;
+    background-color: black;
+    border: 2px solid  black;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.footerb{
+    
+        height: 180px;
+        width: 300px;
+        /* border: 2px solid  rgb(8, 0, 255); */
+        float: left;
+        color: white;
+        align-items: center;
+        text-align: center;
+        
+
+
+     
+    
+}
